@@ -37,6 +37,12 @@ GIT
     spree_gateway (2.3.0.beta)
       spree_core (~> 2.4.0.beta)
 
+PATH
+  remote: ../spree_simple
+  specs:
+    spree_simple (2.4.1)
+      spree_core (~> 2.4.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -331,6 +337,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_bootstrap_frontend!
   spree_gateway!
+  spree_simple!
   spring
   sqlite3
   turbolinks
